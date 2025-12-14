@@ -1,0 +1,41 @@
+# Composer dependencies
+/vendor/
+
+# Environment configuration
+/.env
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# User-specific or OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+/.idea/
+/.vscode/
+.settings/
+.project
+.buildpath
+
+# Runtime directories（将来利用されても自動で無視）
+/logs/
+/storage/
+/cache/
+/tmp/
+
+# PHPStorm / Eclipse / NetBeans などのその他ゴミ
+*.iml
+*.swp
+*.swo
+*.~lock.*
+
+# PHP built-in server artifacts
+.phpunit.cache
+.phpserver/
+
+# Application-specific
+/sample/.env
+
+# SASS
+*.map
